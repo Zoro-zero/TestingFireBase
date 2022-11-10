@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RealTimeFireBase</string>
+    <string name="name">Введите ваше имя</string>
+    <string name="emaik">Введите ващу почту</string>
+    <string name="number">Введите ваш номер</string>
+    <string name="Save">Сохранить</string>
+    <string name="reading_base">Reading base</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play">play</string>
+</resources>

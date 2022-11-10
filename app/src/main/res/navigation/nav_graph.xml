@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/videoTestFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.realtimefirebase.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.realtimefirebase.ImageFragment"
+        android:label="fragment_image"
+        tools:layout="@layout/fragment_image" />
+    <fragment
+        android:id="@+id/fragmentTestMusic"
+        android:name="com.example.realtimefirebase.FragmentTestMusic"
+        android:label="fragment_test_music"
+        tools:layout="@layout/fragment_test_music" />
+    <fragment
+        android:id="@+id/videoTestFragment"
+        android:name="com.example.realtimefirebase.VideoTestFragment"
+        android:label="fragment_video_test"
+        tools:layout="@layout/fragment_video_test" />
+</navigation>
